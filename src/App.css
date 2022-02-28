@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0000;
+  color: #293264;
+}
+.opening {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 99;
+}
+.title {
+  margin: 0;
+  
+}
+.description {
+  margin-top: 10px;
+}
+.start-quiz {
+  background: #4D5B9E;
+  border-radius: 15px;
+  width: 8rem;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.blob-lemon {
+  position: absolute;
+  width: 37%;
+  height: 71%;
+  left: 79.24%;
+  z-index: 1;
+  background: #FFFAD1;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transform: rotate(-128.49deg);
+  top: -26%;
+}
+.blob-baby {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
+  background: #DEEBF8;
+  border-radius: 30% 70% 70% 30% / 30% 20% 80% 70%;
+  transform: rotate(-128.49deg);
+  left: -16%;
+  bottom: 0;
+}
+.trivia {
+  display: flex;
+  height: 100%;
+  z-index: 2;
+  align-self: flex-start;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 20px;
+  
+}
+.quiz {
+  margin: 10px 5px;
+}
+
+.quiz-question {
+  font-weight: bold;
+}
+.quiz-allChoices {
+  margin-top: 10px;
+  display: flex;
+}
+.quiz-choice {
+  display: box;
+  border: 2px solid #4D5B9E;
+  border-radius: 30px;
+  padding: 5px;
+  margin-right: 10px;
+  background: white;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  cursor: pointer;
+  
+
+}
+.result {
+  display: flex;
+  margin: 10px 0px;
+  padding: 10px;
+  justify-content: space-between;
+  
+}
+
+.check {
+  display: box;
+  border: 2px solid #4D5B9E;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 30%;
+  align-self: center;
+  cursor: pointer;
+  
+  background: #4D5B9E;
+  color: white;
+  
+}
+.check.play {
+  align-self: flex-end;
+}
